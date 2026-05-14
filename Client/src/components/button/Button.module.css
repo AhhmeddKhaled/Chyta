@@ -1,0 +1,27 @@
+.btn {
+  border: none;
+  outline: none;
+  margin-top: var(--space-6);
+  padding: var(--space-3) var(--space-8);
+  border-radius: var(--radius-md);
+  background: var(--primary);
+  color: var(--text);
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: var(--shadow-sm);
+  font-size: var(--fs-md);
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-2);
+
+  span {
+    display: inline-flex;
+  }
+}
+
+.btn:hover {
+  background: var(--primary-hover);
+  transform: translateY(-2px);
+}

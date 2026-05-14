@@ -1,0 +1,58 @@
+.header > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    h2 {
+        font-size: var(--space-6);
+        color: var(--primary);
+    }
+
+    nav {
+        ul {
+            display: flex;
+            gap: var(--space-6);
+            list-style: none;
+            li {
+                a {
+                    transition: color 0.5s;
+                    text-decoration: none;
+                    color: var(--text);
+                    font-size: var(--space-4);
+                    padding: var(--space-2) var(--space-4);
+                    color: var(--text);
+                    display: block;
+                    &:hover {
+                        color: var(--primary);
+                    }
+                }
+
+            }
+                .login {
+
+                    border: 1px solid var(--primary);
+                    border-radius: var(--radius-md);
+                    color: var(--primary);
+                    font-size: var(--space-4);
+                    text-decoration: none;
+                    transition: background 0.3s, color 0.3s;
+                    font-weight: bold;
+   &:hover {
+                        background: var(--text);
+                    }
+                    a {
+                    padding: var(--space-2) var(--space-6);
+                    display: flex;
+                    align-items: center;
+                    border-radius: inherit;
+                    justify-content: space-between;
+                    span {
+                        display: inline-flex;
+                        margin-left: var(--space-2);
+                    }
+                }
+            }
+    }
+}
+
+}
