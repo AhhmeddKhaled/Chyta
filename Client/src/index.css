@@ -64,12 +64,12 @@
   --font-en: "Poppins", sans-serif;
   --font-ar: "Cairo", sans-serif;
 
-  --fs-sm: 14px;
-  --fs-md: 16px;
-  --fs-lg: 20px;
+  --fs-sm: 16px;
+  --fs-md: 20px;
+  --fs-lg: 24px;
   --fs-xl: 28px;
   --fs-2xl: 36px;
-
+  --fs-hero: 60px;
 }
 
 /* =========================
@@ -88,7 +88,10 @@ body {
   color: var(--text);
 }
 
-
+h3 {
+  font-size: var(--fs-xl);
+  font-weight: bold;
+}
 /* =========================
    🔘 BUTTON SYSTEM
 ========================= */
@@ -197,9 +200,4 @@ body {
 
 .text-center {
   text-align: center;
-}
-
-.title {
-  font-size: var(--fs-xl);
-  font-weight: 600;
 }

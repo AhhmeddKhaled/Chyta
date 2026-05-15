@@ -7,8 +7,8 @@ export default function Home() {
         <section className={style.homeSection}>
             <div className={style.overlay}></div>
             <div className={style.content}>
-                <h1>Welcome to Chyta</h1>
-                <p>Your one-stop shop for all your needs. Explore our wide range of products and find the perfect items for you.</p>
+                <h1>Own The Streets</h1>
+                <p>Fresh drops. Clean style. Sneakers that speak before you do.</p>
                 <Button>
                     Shop Now
                     <span>

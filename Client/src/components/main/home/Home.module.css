@@ -25,14 +25,15 @@
         align-items: center;
         justify-content: center;
         h1 {
-            color: var(--primary);
-            font-size: var(--fs-2xl);
+            color: var(--text);
+            font-size: var(--fs-hero);
             margin-bottom: var(--space-4);
             font-weight: bold;
+            white-space: 8px;
         }
         
         p {
-            font-size: var(--fs-lg);
+            font-size: var(--fs-sm);
             color: var(--text);
             max-width: 600px;
             text-align: center;
