@@ -47,9 +47,9 @@ function App() {
                             <span className={style.favoriteIcon}>
                                 <FaHeart />
                             </span>
-                            {product.image && (
+                            {product.images && (
                                 <img
-                                    src={`http://localhost:5000${product.image}`}
+                                    src={`http://localhost:5000${product.images[1]}`}
                                     alt={product.name}
                                 />
                             )}
